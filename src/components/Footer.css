@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgb(37, 37, 58);
+}
+.footer-ctn{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    
+}

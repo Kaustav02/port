@@ -1,0 +1,76 @@
+.social_1 {
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.social_2 {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.social_3 {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.2s;
+  
+}
+
+.social_4 {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+.social_1:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.social_2:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.social_3:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.social_4:hover {
+    transform: scale(
+      1.2
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.icon {
+  margin-top: 20px;
+  display: flex;
+}
+.heading {
+  text-align: center;
+  margin-top: 30px;
+}

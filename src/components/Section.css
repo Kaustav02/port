@@ -1,0 +1,59 @@
+
+
+.main{
+    width: 100%;
+    padding: 6rem 1rem;
+    
+    
+
+     
+}
+.contenet{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    background: linear-gradient(to right, #f33c3c,#f138fec2);
+    border-radius: 20px;
+}
+.card{
+    border: 2px solid rgb(95, 244, 58);
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(61, 94, 243);
+  
+}
+.card h2{
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+.card p{
+    font-size: 1rem;
+    padding: 2rem;
+}
+@media screen and (max-width: 650px) {
+    .contenet {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  /* .c1{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .c2{
+    background-color: rgb(0, 0, 0);
+  } */
+
+  /* .wifi{
+    height: 50px;
+    width: 50px;
+  } */

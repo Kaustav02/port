@@ -1,0 +1,59 @@
+.hero-img {
+    width: 100%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.image-container {
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+    box-sizing: border-box;
+  }
+  .head{
+    
+      font-size: 48px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 0;
+      padding: 20px 0;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #ccc;
+    
+    
+    
+  }
+  
+  .image-container img {
+   
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+.hero-img::before {
+    content: "";
+    background: url('https://img.freepik.com/premium-vector/boy-coding-with-laptop-illustration_418302-2379.jpg?w=2000');
+
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
